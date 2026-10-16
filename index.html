@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Xuancheng Jin is a Ph.D. student at Zhejiang University researching LLM-driven software testing, advised by Prof. Xing Hu.">
+  <meta name="theme-color" content="#f7f8f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Xuancheng Jin · Research Homepage">
+  <meta property="og:description" content="LLM4Test · Test4LLM. Research on program behavior, test generation, and executable properties.">
+  <meta property="og:url" content="https://xc-jin.github.io/">
+  <link rel="canonical" href="https://xc-jin.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+  <title>Xuancheng Jin · Research Homepage</title>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Xuancheng Jin, home">xj<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-button" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.5 14A8.7 8.7 0 0 1 10 3.5 8.7 8.7 0 1 0 20.5 14Z"/></svg>
+        <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="about" aria-labelledby="name">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Zhejiang University</p>
+          <h1 id="name">Xuancheng<br>Jin<span class="name-dot">.</span></h1>
+          <p class="identity">Ph.D. student · Software Engineering</p>
+          <p class="introduction">I am a Ph.D. student at the School of Software Technology, Zhejiang University, advised by <a href="https://xing-hu.github.io/">Prof. Xing Hu<span class="external" aria-hidden="true"> ↗</span></a>.</p>
+          <p class="introduction">My research focuses on LLM-driven software testing. I study how program structure and execution evidence can inform test generation, and how executable properties can support the evaluation of LLMs and agents.</p>
+          <div class="hero-links">
+            <a href="mailto:xc.jin@zju.edu.cn">Email <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/xc-jin">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <figure class="research-figure" aria-label="An illustration connecting program structure, behavioral specifications, and executable tests">
+          <div class="figure-top"><span>RESEARCH NOTES</span><span>01 / BEHAVIOR</span></div>
+          <svg viewBox="0 0 400 360" class="behavior-graph" role="img" aria-labelledby="graph-title">
+            <title id="graph-title">From program behavior to executable tests</title>
+            <g class="graph-lines" fill="none" stroke-width="1.2">
+              <path d="M92 82 202 153 311 87M202 153 107 251M202 153 303 253M107 251 303 253"/>
+              <path d="M92 82 47 161M311 87 350 164M303 253 350 164M107 251 47 161" stroke-dasharray="4 6"/>
+            </g>
+            <g class="graph-small-nodes"><circle cx="47" cy="161" r="4"/><circle cx="350" cy="164" r="4"/></g>
+            <g class="graph-nodes" stroke-width="1.2"><rect x="51" y="61" width="82" height="42" rx="6"/><rect x="269" y="66" width="84" height="42" rx="6"/><rect x="55" y="230" width="104" height="42" rx="6"/><rect x="261" y="232" width="84" height="42" rx="6"/></g>
+            <g class="graph-labels" text-anchor="middle"><text x="92" y="87">code</text><text x="311" y="92">traces</text><text x="107" y="256">properties</text><text x="303" y="258">tests</text></g>
+            <circle class="graph-halo" cx="202" cy="153" r="27"/>
+            <circle class="graph-center" cx="202" cy="153" r="8"/>
+            <text x="200" y="327" class="graph-caption" text-anchor="middle">structure → behavior → evidence</text>
+          </svg>
+          <figcaption>Understanding behavior.<br>Making it testable.</figcaption>
+        </figure>
+      </section>
+
+      <section class="interests" aria-labelledby="interests-heading">
+        <h2 class="eyebrow" id="interests-heading">Research interests</h2>
+        <p>LLM4Test <span aria-hidden="true">/</span> Test4LLM</p>
+      </section>
+
+      <section class="research-section" id="research" aria-labelledby="research-heading">
+        <div class="section-heading"><h2 id="research-heading">Research</h2><span class="section-note">PUBLICATIONS & ARTIFACTS</span></div>
+        <article class="publication" aria-labelledby="paper-title">
+          <div class="publication-meta"><span class="year">2025</span><span class="venue">SANER</span></div>
+          <div class="publication-content">
+            <h3 id="paper-title"><a href="https://ieeexplore.ieee.org/document/10992478/">TRACETS4J: A Traceable Unit Test Generation Dataset</a></h3>
+            <p class="authors">Xuancheng Jin, Zhuang Liu, Junwei Zhang, Xing Hu, and Xin Xia</p>
+            <p class="publication-description">Inaccurate associations between tests and focal methods introduce noise into test generation datasets. This work studies the causes of incorrect and missed traceability links and proposes COACH, an approach that combines hierarchical matching heuristics with signature validation.</p>
+            <p class="publication-description">Applying COACH to 19,518 open-source Java projects yields TRACETS4J, a dataset of 1,115,654 test–method pairs. Experiments with CodeT5 fine-tuning examine the dataset's utility for unit test generation.</p>
+            <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10992478/">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/xc-jin/TRACETS4J">Code & dataset <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+        <div><h2 class="eyebrow" id="contact-heading">Contact</h2><a class="email-link" href="mailto:xc.jin@zju.edu.cn">xc.jin@zju.edu.cn <span aria-hidden="true">↗</span></a></div>
+        <p>School of Software Technology<br>Zhejiang University</p>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="current-year">2026</span> Xuancheng Jin</span><a href="https://github.com/xc-jin">GitHub <span aria-hidden="true">↗</span></a></footer>
+  </div>
+</body>
+</html>
